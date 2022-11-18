@@ -1,0 +1,16 @@
+<html>
+<script type="text/javascript">
+    var numLlamadas = 0;
+    function calculaBinomio(a, b)
+    {
+        var cuadradoDeA = a*a;
+        var cuadradoDeB = b*b;
+        numLlamadas++;
+        return cuadradoDeA + cuadradoDeB + 2*a*b;
+    }
+    alert(calculaBinomio(2, 3));
+    alert(calculaBinomio(4, 5));
+    alert(numLlamadas);
+    alert(typeof(cuadradoDeA));
+</script>
+</html>
